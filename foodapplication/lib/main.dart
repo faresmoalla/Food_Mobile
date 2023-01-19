@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foodapplication/Homepage.dart';
+import 'package:foodapplication/authentification/Register.dart';
 import 'package:foodapplication/authentification/login.dart';
 import 'package:foodapplication/signin.dart';
 import 'package:foodapplication/theme.dart';
@@ -27,6 +28,7 @@ return  MaterialApp(
 routes : {
     "/": (context)=> Homepage()  ,
     "/login"   :  (context)=> Login() ,
+    "/register" : ((context) => Register())
    // "/bottomnav" : (context)=> BottomNav(),
    // "/tabinterface" : (context)=> Tabinterface()
     
